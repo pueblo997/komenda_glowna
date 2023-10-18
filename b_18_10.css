@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(to left, #23db51, #4e3981);
+    background-image: repeating-radial-gradient(rgb(255, 255, 255), rgba(233, 217, 217, 0.199) 1%, green 2%);
+   /* animation: tlo 2s ease 2s infinite alternate none; */
+
+    .box:hover { animation-play-state:paused; }
+}
+@keyframes tlo
+{
+10%     { margin-left: 0; background: #01fd16 }
+60%    { margin-right: 3%; background: #c40c5cd5 }   
+100%    { margin-right: 3%; background: #0f22cf }
+}
+
+h1{
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border: 3px solid rgb(44, 150, 32);
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgb(197, 29, 65);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    box-shadow: 5px 5px rgb(162, 127, 160);
+    color: white;
+    animation: animacja 5s ease 1s infinite alternate none;
+}
+
+.box:hover { animation-play-state:paused; }
+
+/*@keyframes animacja
+{ 
+30%    { margin-left: 20%; background: rgb(139, 60, 29) }
+50%    { margin-right: 30%; background: rgb(218, 105, 40) }
+0%    { margin-top: 0%; background: rgb(146, 88, 157) }
+0%    { margin-bottom: 0%; background: rgb(157, 24, 24) }
+75%    { margin-left: 30%; background: rgb(139, 60, 29) }
+50%    { margin-right: 30%; background: rgb(218, 105, 40) }
+0%   { margin-top: 0%; background: rgb(139, 144, 70) }
+0%    { margin-bottom: 0%; background: rgb(104, 72, 102) }
+}*/
+#przedmiot {
+    margin-top: 75px;
+    /*transform: rotate(+2deg);*/
+}
+
+#rok {
+    margin-top: 75px;
+    /*transform: rotate(-2deg);*/
+}
+
+#prowadzacy {
+    margin-top: 75px;
+    /* transform: rotate(+2deg);*/
+    
+}
+
+#imie{
+    margin-top: 40px;
+    
+}
+
+section
+{
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: #4e3981;
+}

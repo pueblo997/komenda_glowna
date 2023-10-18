@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(to left, #23db51, #4e3981);
-    background-image: repeating-radial-gradient(rgb(255, 255, 255), rgb(0, 0, 0) 1%, green 2%);
+    background-image: repeating-radial-gradient(rgb(255, 255, 255), rgba(233, 217, 217, 0.199) 1%, green 2%);
    /* animation: tlo 2s ease 2s infinite alternate none; */
 
     .box:hover { animation-play-state:paused; }
@@ -28,17 +28,17 @@ h1{
 
 .box:hover { animation-play-state:paused; }
 
-@keyframes animacja
+/*@keyframes animacja
 { 
 30%    { margin-left: 20%; background: rgb(139, 60, 29) }
 50%    { margin-right: 30%; background: rgb(218, 105, 40) }
-70%    { margin-top: 8%; background: rgb(146, 88, 157) }
-20%    { margin-bottom: 2%; background: rgb(157, 24, 24) }
+0%    { margin-top: 0%; background: rgb(146, 88, 157) }
+0%    { margin-bottom: 0%; background: rgb(157, 24, 24) }
 75%    { margin-left: 30%; background: rgb(139, 60, 29) }
 50%    { margin-right: 30%; background: rgb(218, 105, 40) }
-100%   { margin-top: 10%; background: rgb(139, 144, 70) }
-11%    { margin-bottom: 10%; background: rgb(104, 72, 102) }
-}
+0%   { margin-top: 0%; background: rgb(139, 144, 70) }
+0%    { margin-bottom: 0%; background: rgb(104, 72, 102) }
+}*/
 #przedmiot {
     margin-top: 75px;
     /*transform: rotate(+2deg);*/
@@ -59,3 +59,13 @@ h1{
     margin-top: 40px;
     
 }
+
+section
+{
+    padding: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: #4e3981;
+}
+
